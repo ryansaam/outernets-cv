@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Have the latest stable versions of Node and Yarn installed
 
-[Node](https://nodejs.org/)
+[Node](https://nodejs.org/)  
 [Yarn](https://yarnpkg.com/getting-started/install)
 
 ## Install node modules
