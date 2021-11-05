@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mediapipe/pose": "^0.4.1633558788",
+    "@tensorflow-models/face-landmarks-detection": "^0.0.1",
+    "@tensorflow-models/pose-detection": "^0.0.6",
+    "@tensorflow/tfjs": "^3.11.0",
+    "@tensorflow/tfjs-backend-wasm": "^3.11.0",
+    "@tensorflow/tfjs-converter": "^3.11.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@vladmandic/face-api": "^1.5.7",
+    "@vladmandic/human": "^2.4.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-webcam": "^6.0.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

@@ -1,38 +1,31 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#webcam-view {
+  background-color: black;
+  width: 640px;
+  height: 480px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 1);
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.breakout-button {
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  width: 140px;
+  padding: 5px 10px;
+  background: "#f8f8f8";
+  border: 3px solid;
+  border-radius: 20px;
+  float: right;
+  margin-bottom: 5px;
 }
